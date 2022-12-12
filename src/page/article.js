@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import React, { useEffect, useState} from "react";
 import { getAriticleById } from "../api";
-import heart from '../img/heart-3510.png'
+import heart from '../img/heart.png'
 import comm from '../img/comment.png'
 
 
@@ -40,7 +40,7 @@ const Detail = ()=> {
 					</div>
 					<div className="button">
 							<button className="btn like" onClick={likeClick} >
-								<img className="icon like-icon" src={heart}></img>
+								<img className="icon like-icon" src={heart} fill='#ccc'></img>
 								<div className="cont-like">{detail.article_like.length}</div>
 							</button>
 							<button className="btn comm" onClick={commClick}>

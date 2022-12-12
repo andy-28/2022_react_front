@@ -85,14 +85,14 @@
 }
 
 .icon {
-  width: 50px;
+  width: 80px;
 }
 
 .right_wrap {
   margin-left: 50px;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .active_like {
@@ -150,7 +150,4 @@
 .comm_none {
   width: 0;
   display: none;
-}
-.icon .like-icon {
-  color: #fff;
 }
