@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const URL = "https://web-production-5c38.up.railway.app"
+const URL = "https://wk10python1.up.railway.app"
 
 export const getAllAriticle = async() => {
   try {
