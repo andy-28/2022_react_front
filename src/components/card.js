@@ -10,6 +10,7 @@ const Card = ({data}) => {
 			<div className="c_description">{data.description}</div> 
 			<div className="more">More</div>
 		</Link>
+		
 	)
 }
 
